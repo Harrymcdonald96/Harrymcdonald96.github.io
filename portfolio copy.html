@@ -9,6 +9,10 @@
 </head>
 
 <body>
+    <!-- Custom cursor container -->
+    <div class="custom-cursor"></div>
+
+    <!-- Header -->
     <header>
         <div class="container">
             <h1>Harry McDonald</h1>
@@ -16,19 +20,42 @@
         </div>
     </header>
 
+    <!-- Main content -->
     <main>
         <div class="container">
             <!-- Content sections will be added here -->
         </div>
     </main>
 
+    <!-- Footer -->
     <footer>
         <div class="container">
             <p>Contact: harryquirk1996@gmail.com | Phone: 07354 710897</p>
         </div>
     </footer>
+    
+    <script>
+        // JavaScript for custom cursor
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get the custom cursor element
+            var cursor = document.querySelector('.custom-cursor');
+    
+            // Track mouse movement and update cursor position
+            document.addEventListener('mousemove', function(e) {
+                var mouseX = e.clientX;
+                var mouseY = e.clientY;
+    
+                // Update cursor position
+                cursor.style.transform = 'translate(' + (mouseX - 10) + 'px, ' + (mouseY - 10) + 'px)';
+            });
+        });
+        
+    </script>
+    
+
 </body>
 
 </html>
+
 
 
