@@ -59,8 +59,9 @@ main {
 /* Custom cursor styles */
 .custom-cursor {
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 0.1%;
+    left: 0.1%;
+    transform: translate(-50%, -50%);
     width: 20px;
     height: 20px;
     border: 2px solid rgba(247, 147, 30, 0.5); /* Vibrant orange border with 50% transparency */
@@ -69,5 +70,20 @@ main {
     z-index: 9999; /* Ensure the cursor is above other elements */
     transition: transform 0.3s ease; /* Add a transition for smooth movement */
 }
+
+/* Dot in the center of the cursor */
+.custom-cursor::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6px;
+    height: 6px;
+    background-color: rgba(247, 147, 30, 0.5); /* Vibrant orange dot with 50% transparency */
+    border-radius: 50%; /* Rounded shape */
+}
+
+
 
 
