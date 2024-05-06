@@ -1,0 +1,59 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #f7931e; /* Vibrant orange */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px;
+}
+
+/* Container styles */
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Main content styles */
+main {
+    padding: 20px 0;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333; /* Black */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Footer link styles */
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Scroll view styles */
+main {
+    overflow-y: scroll;
+    max-height: calc(100vh - 180px); /* Adjust based on header and footer height */
+}
+
+/* Add animations here */
