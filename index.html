@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harry McDonald - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Include your custom cursor CSS file -->
+    <link rel="stylesheet" href="custom-cursor.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+     <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Harry McDonald</h1>
+            <ul class="nav-links">
+                <li><a href="#about">Home</a></li>
+                <li><a href="#skills">skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+ <!-- About Section -->
+<section id="about" class="section">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>A versatile professional with a diverse range of skills and experience spanning nightclub management, digital marketing,
+                    personal training and most recently computer coding. Experience in visionary leadership, strategic thinking, exceptional
+                    customer service skills, digital marketing. Enjoys keeping up to date with new technologies and developments in the
+                    industry. Innovative thinker of strategies to enhance brand visibility and drive customer engagement, earning
+                    recognition for my creative initiatives and results-driven approach. Adaptable and flexible to meet company demands,
+                    pays close attention to detail, and maintain high standards of work. Currently seeking new opportunities and eager to
+                    apply my adaptability, problem-solving abilities, and passion for learning to excel in a dynamic and challenging
+                    environment within the coding sector..</p>
+            </div>
+            <div class="about-image">
+                <img src="images/168bf888-7b25-4a9a-a2cf-4fccef9b7b1f.jpg" alt="Harry McDonald">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+   <!-- Skills Section -->
+<section id="skills" class="section">
+    <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li> Analytical thinking skills and complex problem-solving skills</li>
+            <li>Excellent verbal communication skills for sharing ideas</li>
+            <li>Knowledge for understanding programming and able to write computer programs</li>
+            <li>Thorough and pays attention to detail with persistence and determination</li>
+            <li>Able to come up with new ways of doing things</li>
+            <li>Leadership and management</li>
+            <li>A thorough understanding of computer systems and applications</li>
+            <li>Creative skills including brand management, social media, and graphic design</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </div>
+</section>
+ <!-- Experience Section -->
+ <section id="experience" class="section">
+    <div class="container">
+        <h2>Experience</h2>
+        <div class="experience-item">
+            <div class="experience-info">
+                <h3>Personal Trainer / Fitness Instructor</h3>
+                <p>Self-employed - Sept 2014 / present</p>
+                <button class="more-info-btn">More Info</button>
+            </div>
+            <div class="experience-details hidden">
+                <p>Highly motivated and experienced personal trainer with a passion for promoting health and wellness. Skilled in providing personalized fitness programs tailored to clients' needs and goals. Adept at motivating and inspiring individuals to achieve their fitness objectives.</p>
+
+                <ul>
+                    <li>Design and implement customized fitness programs for clients, focusing on areas such as weight loss, muscular strength, cardiovascular health, and sports-specific training.</li>
+                    <li>Conduct group fitness sessions for individuals of all ages, including circuit training and outdoor activities.</li>
+                    <li>Demonstrated excellent knowledge of anatomy and nutrition, providing valuable guidance to clients on achieving their fitness and dietary goals.</li>
+        <li>Received recognition from clients for dedication and results-oriented approach.</li>
+                    <!-- Add more details as needed -->
+                </ul>
+            </div>
+        </div>
+        <div class="experience-item">
+            <div class="experience-info">
+                <h3>Club Manager</h3>
+                <p>The Vaults - Exeter - Jan 2015 / Feb 2022</p>
+                <button class="more-info-btn">More Info</button>
+            </div>
+            <div class="experience-details hidden">
+                <p>As a dedicated and passionate individual, my journey in the nightlife industry began as a bartender, I worked my way up to the position of Club Manager, honing my skills in visionary leadership, strategic thinking, and exceptional customer service.</p>
+                <ul>
+                    <li>Oversee daily operations and ensure the smooth functioning of the nightclub including managing staff.</li>
+                    <li>Monitor inventory levels and place orders for supplies, beverages, and other items as needed.</li>
+                    <li>Handle customer inquiries, complaints, and feedback, providing excellent customer service.</li>
+        <li>Collaborate with the marketing team to plan and execute promotional events and campaigns.</li>
+        <li>Coordinate with DJs, performers, and artists for upcoming events and entertainment.</li>
+        <li>Ensure compliance with safety and security protocols to create a safe environment for patrons and staff.</li>
+        <li>Analyze financial reports, track revenue, and manage budget allocation to optimize profitability.</li>
+        <li>Network with other businesses and local authorities to build partnerships and enhance the nightclub's reputation.</li>
+        <li>Stay updated with industry trends and competitor activities to identify opportunities for improvement.</li>
+        <li>Implement and enforce club policies and regulations to maintain a positive and respectful atmosphere.</li>
+        <li>Social Media Marketing: Leveraging social media platforms, I successfully engaged with the nightclub's target audience, boosting brand visibility and driving ticket sales for events.</li>
+                    <!-- Add more details as needed -->
+                </ul>
+            </div>
+        </div>
+        <!-- Add more experience items as needed -->
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="section">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contact-form" action="send_email.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+  <footer class="footer">
+        <div class="container">
+        <p>&copy; 2024 Harry McDonald. All rights reserved.</p>
+        </div>
+    </footer>
+
+<!-- Include your custom cursor HTML -->
+<div class="custom-cursor"></div>
+
+<!-- Include your custom cursor JavaScript -->
+<script src="custom-cursor.js"></script>
+
+</body>
+
+</html>;
